@@ -5,7 +5,7 @@ import { ListCard } from '../components/cards';
 
 const Slide_One = () => (
     <div>
-        <Heading>React Native - Lifecycles</Heading>
+        <Heading elementNum={1} fontSize='h3' >React - Component Lifecycle</Heading>
         <UnorderedList>
             <ListCard number="1" content="Component Composition ⚛️" />
             <ListCard number="2" content="State VS Props 🧮" />

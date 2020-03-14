@@ -4,7 +4,7 @@ import { Appear, Heading, CodePane } from 'spectacle';
 
 const Slide_Two = () => (
   <div>
-    <Heading elementNum={1} fontSize='h3' >Identifying Components</Heading>
+    <Heading elementNum={1} fontSize='h3'>Identifying Components</Heading>
     <div style={{ display: 'flex', justifyContent: 'center', margin: '16px' }}>
       <Card title="How does it work?" body="We identify components in our design and isolate them into reusable code"></Card>
     </div>

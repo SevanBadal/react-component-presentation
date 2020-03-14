@@ -3,7 +3,7 @@ import { Card } from '../components/cards';
 import { Heading, CodePane } from 'spectacle';
 const Slide_Three = () => (
     <div>
-        <Heading fontSize='h3' >Component Composition</Heading>
+        <Heading fontSize='h3'>Component Composition</Heading>
         <div style={{ display: 'flex', justifyContent: 'center', margin: '16px' }}>
             <Card title="Title" body="Body"></Card>
         </div>
